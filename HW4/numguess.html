@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+	<style>
+	body {
+		background-color: #c3c3c3;
+	}
+	div {
+		color: #9933FF;
+		text-align: center;
+	}
+	</style>
+	<script src="jquery-1.11.1.min.js"></script>
+	<script src="numguess1.2.js"></script>
+	
+	</head>
+	<body id="Body1">
+		<input id="rand_num" type="hidden">
+  <div>
+       <h1>Guess the Number!</h1>
+      <span> Press play to start a new game!</span>
+  </div>
+  <div id="guess_section" style="display:none;">
+      <span id="guess_text"><!--Guess the number!It is between 1 and 100.--></span>
+      <br/>
+      <input id="input" type="text"></input>
+      <button id="compare">Guess!</button>
+     </div>
+     <div id="game_over" style="display:none;">
+        <span id="game_over_text">Game Over!</span>
+    </div>
+    <div><button id="generate">Play!</button>
+    	<br><image src="Ohio_University_Logo.png" alt="Ohio University" style="width320px;height268px">
+    
+    </div>
+	</body>
+</html>
+<!--http://jsfiddle.net/k6vbocwk/7/-->
